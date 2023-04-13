@@ -66,7 +66,7 @@ const GroupedTeamMembers = ({ employees, selectedTeam, setTeam }) => {
             style={{ cursor: "pointer" }}
           >
             <h4 id={item.team} className="card-header text-secondary bg-white" onClick={handleTeamClick}>
-              Team Name: {item.team}
+              Equipo : {item.team}
             </h4>
 
             <div
@@ -79,11 +79,11 @@ const GroupedTeamMembers = ({ employees, selectedTeam, setTeam }) => {
                   <div className="mt-2">
                     <h5 className="card-title mt-2">
                       <span className="text-dark">
-                        <b>Full Name:</b> {member.fullName}
+                        <b>Nombre y Apellido:</b> {member.fullName}
                       </span>
                     </h5>
                     <p className="card-text text-dark mt-2">
-                        <b>Designation:</b> {member.designation}</p>
+                        <b>Cargo:</b> {member.designation}</p>
                   </div>
                 );
               })}

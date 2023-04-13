@@ -22,9 +22,9 @@ const TeamMemberCard = ({
         <img src={femaleProfile} className="card-img-top" alt="profile" />
       )}
       <div className="card-body">
-        <h5 className="card-title">Full Name: {employee.fullName}</h5>
+        <h5 className="card-title">Nombres: {employee.fullName}</h5>
         <p className="card-text">
-          <b>Designation:</b> {employee.designation}
+          <b>Cargo:</b> {employee.designation}
         </p>
       </div>
     </div>
