@@ -31,7 +31,7 @@ function App() {
   {
     id: 3,
     fullName: "Luis Agreda",
-    designation: "Java Developer",
+    designation: "Front Developer",
     gender: "female",
     teamName: "TeamA"
   },
