@@ -1,6 +1,8 @@
 # employee-teams-tracker
 This site was built using [GitHub Pages](https://pages.github.com/).
 
+![Imagen de la parte header de la pagina.](https://github.com/AgredaLuis/gerich-restaurant/blob/main/src/assets/Home.png)
+
 ## Features
 
 - Hay 2 paginas para navegar
